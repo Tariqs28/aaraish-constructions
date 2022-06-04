@@ -27,7 +27,7 @@ body {
 	font-size: 12px;
 	line-height:30px;
 	color:#777;
-	background:#0CF;
+	background:#1A3C40;
 }
 
 .container {
@@ -37,16 +37,16 @@ body {
 	position:relative;
 }
 
-#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="text"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
 
 #contact {
-	background:#F9F9F9;
+	background:#EDE6DB;
 	padding:25px;
 	margin:50px 0;
 }
 
 #contact h3 {
-	color: #F96;
+	color: #1A3C40;
 	display: block;
 	font-size: 30px;
 	font-weight: 400;
@@ -66,7 +66,7 @@ fieldset {
 	width: 100%;
 }
 
-#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="text"], #contact textarea {
 	width:100%;
 	border:1px solid #CCC;
 	background:#FFF;
@@ -74,7 +74,7 @@ fieldset {
 	padding:10px;
 }
 
-#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="text"]:hover, #contact textarea:hover {
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
 	transition:border-color 0.3s ease-in-out;
@@ -91,7 +91,7 @@ fieldset {
 	cursor:pointer;
 	width:100%;
 	border:none;
-	background:#0CF;
+	background:#417D7A;
 	color:#FFF;
 	margin:0 0 5px;
 	padding:10px;
@@ -99,7 +99,7 @@ fieldset {
 }
 
 #contact button[type="submit"]:hover {
-	background:#09C;
+	background:#1A3C40;
 	-webkit-transition:background 0.3s ease-in-out;
 	-moz-transition:background 0.3s ease-in-out;
 	transition:background-color 0.3s ease-in-out;
@@ -123,14 +123,17 @@ fieldset {
 :-ms-input-placeholder {
  color:#888;
 }
+.logo{
+padding: ;
+}
 
     </style>
 </head>
 <body>
     <div class="container">  
         <form id="contact" action="" method="post">
-          <h3>Quick Contact</h3>
-          <h4>Contact us today, and get reply with in 24 hours!</h4>
+          <h3>Contact Us</h3>
+          <h4>To avail latest offers and discount!</h4>
           <fieldset>
             <input placeholder="Your name" type="text" tabindex="1" required autofocus>
           </fieldset>
@@ -141,7 +144,7 @@ fieldset {
             <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
           </fieldset>
           <fieldset>
-            <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+            <input placeholder="Your interested field of work" type="text" tabindex="4" >
           </fieldset>
           <fieldset>
             <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
@@ -151,6 +154,7 @@ fieldset {
           </fieldset>
         </form>
        
+	<img class="logo" src="images//logo1.jpg" alt="">
         
       </div>
 </body>
